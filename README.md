@@ -1,6 +1,6 @@
 # healthy-food-priorities-baltimore
 
-## Background
+## Abstract
 
 ## Business Question
 What gaps exist that are contributing to Healthy Food Priority Areas in Baltimore?
