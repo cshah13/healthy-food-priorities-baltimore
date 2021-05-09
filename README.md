@@ -43,6 +43,6 @@ The overall densities of fast food outlets per 1000 residents in community stati
 ### How does median household income compare with HFAI scores across Community Statistical Areas in Baltimore City? 
 The map  shows the median household income of each community statistical area and puts the HFAI scores in context with financial constraints, a possible factor affecting HFAI scores. Overall, higher income areas correspond to higher HFAI scores. The areas with lower HFAI scores somewhat correspond to lower income areas, however areas with median household incomes of $30,000-$45000 have both medium and low HFAI scores. Areas along the waterfront and inner harbor have higher median household incomes, which suggests that other factors may be influencing their low HFAI scores. 
 
-![alttext](https://github.com/cshah13/healthy-food-priorities-baltimore/blob/main/Average%20HFAI%202015%20Map.png)[https://github.com/cshah13/healthy-food-priorities-baltimore/blob/main/Household%20Income%20Map.png]
+![alttext](https://github.com/cshah13/healthy-food-priorities-baltimore/blob/main/Household%20Income%20Map.png)
 
 ## Recommendations
