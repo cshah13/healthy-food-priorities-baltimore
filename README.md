@@ -15,9 +15,10 @@ What factors impact healthy food availability in Baltimore?
 
 ## Data Question
 1. How can 2015 Healthy Food Availability Index Scores be organized in four clusters? 
-1. How have the Healthy Food Availability Index scores changed from 2012 to 2015? [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/cshah13/healthy-food-priorities-baltimore/blob/main/HFAI_FoodIndexAnalysis.ipynb)
-2. How prevalent are fast food establishments throughout Baltimore City? [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/cshah13/healthy-food-priorities-baltimore/blob/main/Fast_Food_Outlet_Density_Graph.ipynb)
-3. How do HFAI scores compare across Community Statistical Areas in Baltimore City? [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/cshah13/healthy-food-priorities-baltimore/blob/main/Geospatial_Analysis_HFAI_MedHHI.ipynb)
+2. How do HFAI scores compare across Community Statistical Areas in Baltimore City? [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/cshah13/healthy-food-priorities-baltimore/blob/main/Geospatial_Analysis_HFAI_MedHHI.ipynb)
+3. How have the Healthy Food Availability Index scores changed from 2012 to 2015? [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/cshah13/healthy-food-priorities-baltimore/blob/main/HFAI_FoodIndexAnalysis.ipynb)
+4. How prevalent are fast food establishments throughout Baltimore City? [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/cshah13/healthy-food-priorities-baltimore/blob/main/Fast_Food_Outlet_Density_Graph.ipynb)
+5. How does median household income compare with HFAI scores across Community Statistical Areas in Baltimore City? [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/cshah13/healthy-food-priorities-baltimore/blob/main/Geospatial_Analysis_HFAI_MedHHI.ipynb)
 
 
 ## Data Sources
@@ -27,5 +28,21 @@ We used data from the Baltimore City Open Data to conduct this analysis
 3. [Median Household Income](https://data.baltimorecity.gov/datasets/bniajfi::median-household-income)
 
 ## Data Answer
+### How can 2015 Healthy Food Availability Index Scores be organized in four clusters? 
+We used the Microsoft Office Excel Solver tool to categorize locations throughout Baltimore based on HFAI scores. The HFAI scores indicate the level of healthy and whole foods available in a store—the highest score of 28.5 indicates the healthiest options. The findings show that 57% of Baltimore locations have an HFAI score less than 9.25. This indicates there is an insufficient availability of healthy, nutritious, and whole food options throughout stores in Baltimore. Since HFAI scores are one of the four indicators of Healthy Food Priority Areas, improving the HFAI can be a positive step towards reducing Healthy Food Priority Areas across Baltimore.
+
+### How do HFAI scores compare across Community Statistical Areas in Baltimore City?
+We used Python to create a graph showing HFAI scores in Community Statistical Areas in Baltimore City. Overall, statistical areas with similar HFAI appear to be located next to each other. Statistical areas with HFAI scores of 9.2-11.25 appear to be close together and there is a clear grouping of areas in the center of the map. Statistical areas with lower HFAI scores are located towards the borders of Baltimore City and include popular tourist destinations like Inner Harbor. Statistical areas with HFAI scores between 11.25 and 16 are located in close proximity to one another and form a border along the Baltimore waterfront. The sole area with a HFAI score above 16 is located along the upper border of Baltimore City, and is flanked by statistical areas with low HFAI scores. This finding merits future research to identify additional factors that may explain why it has a high HFAI score while its neighbors do not. ![alttext](https://github.com/cshah13/healthy-food-priorities-baltimore/blob/main/Average%20HFAI%202015%20Map.png)
+
+### How have the Healthy Food Availability Index scores changed from 2012 to 2015?
+The graph shows that 68% of areas in Baltimore had a decline in HFAI scores during the three year time period. We know this is a problem that the Baltimore City Health Department is attempting to address; however, the interventions are not showing improvements. The graph highlights specific locations in Baltimore where HFAI scores increased or decreased to identify areas that need further attention. Areas such as Chinquapin Park/Belvedere, Beechfield/Ten Hills/West Hills, and Loch Raven experienced the greatest declines (between 5-7 points). On the other hand, locations such as Southeastern and Mount Washington/Coldspring experienced the greatest increases (3-5 points (over 4 points). 
+
+### How prevalent are fast food establishments throughout Baltimore City?
+The overall densities of fast food outlets per 1000 residents in community statistical areas were below 5 for both 2013 and 2018, however Downtown/Seton Hill had a significantly higher density than other statistical areas during both years. The next highest values were from Madison/East End, however these values were almost 7, which is more than three times less than the values for Downtown/Seton Hill. The fast food outlet densities were greater in 2018 than 2013 for most statistical areas. The findings of this analysis indicate that fast food outlets are fairly prevalent throughout Baltimore City and extremely prevalent in Downtown/Seton Hill. The fast food outlet density for Downtown/Seton Hill decreased marginally from 2013 to 2018, however it is still significantly higher than all other community statistical areas. 
+
+### How does median household income compare with HFAI scores across Community Statistical Areas in Baltimore City? 
+The map  shows the median household income of each community statistical area and puts the HFAI scores in context with financial constraints, a possible factor affecting HFAI scores. Overall, higher income areas correspond to higher HFAI scores. The areas with lower HFAI scores somewhat correspond to lower income areas, however areas with median household incomes of $30,000-$45000 have both medium and low HFAI scores. Areas along the waterfront and inner harbor have higher median household incomes, which suggests that other factors may be influencing their low HFAI scores. 
+
+![alttext](https://github.com/cshah13/healthy-food-priorities-baltimore/blob/main/Average%20HFAI%202015%20Map.png)[https://github.com/cshah13/healthy-food-priorities-baltimore/blob/main/Median%20Household%20Income%202015%20Map.png]
 
 ## Recommendations
