@@ -1,4 +1,4 @@
-# healthy-food-priorities-baltimore
+# Analyzing Healthy Food Availability Throughout Baltimore, Maryland
 
 ## Abstract
 
