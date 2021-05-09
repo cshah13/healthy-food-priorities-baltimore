@@ -14,7 +14,7 @@ Although there are interventions in place, there is more work that needs to be d
 What factors impact healthy food availability in Baltimore?
 
 ## Data Question
-1. How can 2015 Healthy Food Availability Index Scores be organized in four clusters? 
+1. How can 2015 Healthy Food Availability Index Scores be organized in four clusters? [View Analysis Here](https://github.com/cshah13/healthy-food-priorities-baltimore/blob/main/Cluster%20Analysis%20HFAI%202015.xlsx)
 2. How do HFAI scores compare across Community Statistical Areas in Baltimore City? [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/cshah13/healthy-food-priorities-baltimore/blob/main/Geospatial_Analysis_HFAI_MedHHI.ipynb)
 3. How have the Healthy Food Availability Index scores changed from 2012 to 2015? [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/cshah13/healthy-food-priorities-baltimore/blob/main/HFAI_FoodIndexAnalysis.ipynb)
 4. How prevalent are fast food establishments throughout Baltimore City? [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/cshah13/healthy-food-priorities-baltimore/blob/main/Fast_Food_Outlet_Density_Graph.ipynb)
